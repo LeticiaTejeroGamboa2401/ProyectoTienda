@@ -54,14 +54,14 @@ public class ProyectoTienda {
 
                     switch(menu)
                     {
-                        case 1 -> obj2.AñadirCliente();
-                        case 2 -> obj1.AgregarArticulo();
-                        case 3 -> obj4.RealizarCompra();
-                        case 4 -> obj3.Historial();
-                        case 5 -> obj5.MejorCliente();
-                        case 6 -> obj6.PuntosporCliente();
-                        case 7 -> obj7.CanjearPuntos();
-                        default -> {
+                        case 1 : obj2.AñadirCliente();
+                        case 2 : obj1.AgregarArticulo();
+                        case 3 : obj4.RealizarCompra();
+                        case 4 : obj3.Historial();
+                        case 5 : obj5.MejorCliente();
+                        case 6 : obj6.PuntosporCliente();
+                        case 7 : obj7.CanjearPuntos();
+                        default : {
                         }    
                     }
 
